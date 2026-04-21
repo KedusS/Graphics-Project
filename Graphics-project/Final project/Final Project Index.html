@@ -1,0 +1,37 @@
+<!-- Last edited by Dietrich Geisler 2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+    <!-- Sets an icon for the page -->
+    <link rel="icon" type="image/x-icon" href="/resources/favicon.ico">
+</header>
+
+<body onload="main()">
+    <!-- WebGL Utility Scripts -->
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-quat03.js"></script>
+
+    <!-- Load our terrain script -->
+    <script src="terrain.js"></script>
+
+    <!-- Select a JavaScript file -->
+    <script src="Finalproject.js"></script>
+
+    <!-- Setup the Canvas -->
+    <canvas id="canvas" width="400" height="400">
+        Please use a browser that supports "canvas"
+    </canvas>   
+
+    <body>
+        <div id="instructions">
+            <p>Use <b>W/S</b> to move forwards/backwards, <b>Q/E</b> to rotate up/down, and <b>A/D</b> to rotate left/right.</p>
+            <p><b>Space</b> to attack.</p>
+        </div>
+        <canvas id="canvas"></canvas>
+    </body>
+
+</html>
